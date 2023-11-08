@@ -3,6 +3,62 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      //assets
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      //components
+      "@components/*": [
+        "src/app/components/*"
+      ],
+      //pages
+      "@pages/*": [
+        "src/app/pages/*"
+      ],
+      //core
+      "@core/*": [
+        "src/app/core/*"
+      ],
+      //children of core
+      "@authentication/*": [
+        "src/app/core/_authentication/*"
+      ],
+      "@base-http/*": [
+        "src/app/core/_base-http/*"
+      ],
+      "@constants/*": [
+        "src/app/core/_constants/*"
+      ],
+      "@directives/*": [
+        "src/app/core/_directives/*"
+      ],
+      "@guards/*": [
+        "src/app/core/_guards/*"
+      ],
+      "@interceptors/*": [
+        "src/app/core/_interceptors/*"
+      ],
+      "@models/*": [
+        "src/app/core/_models/*"
+      ],
+      "@pipes/*": [
+        "src/app/core/_pipes/*"
+      ],
+      "@services/*": [
+        "src/app/core/_services/*"
+      ],
+      "@state-management/*": [
+        "src/app/core/_state-management/*"
+      ],
+      "@utils/*": [
+        "src/app/core/_utils/*"
+      ],
+      // Layout
+      "@layout/*": [
+        "src/app/layouts/*"
+      ],
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
