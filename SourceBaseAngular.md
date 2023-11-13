@@ -4,7 +4,7 @@ Node 18
 Yarn 1.22.19
 
 - Create new project Angular : ng new angular-start-template --directory ./ --skip-install --skip-git --style scss --routing true
-- Create multi environments: development, staging, production
+- Create multi environments: ng g environments => development, staging, production
 - Setup script build:
   [ ] "start:development": "ng serve --configuration=development"
   [ ] "start:staging": "ng serve --configuration=staging"
